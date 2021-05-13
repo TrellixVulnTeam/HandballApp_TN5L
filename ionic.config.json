@@ -1,0 +1,7 @@
+{
+  "name": "HandballApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
