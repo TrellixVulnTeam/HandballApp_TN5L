@@ -7,3 +7,8 @@
 
 Handball-App zur Auswertung der Schiedsrichterdaten
 
+# Lokal hosten
+
+cd /Users/Karmaaa/Desktop/DHBW/Integrationsseminar/Handballapp/HandballApp
+
+ionic serve
