@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { ViewEncapsulation } from '@angular/core';
 
 export interface Data {
-  handball: string;
+  handball: any;
 }
 
 @Component({
@@ -22,18 +22,20 @@ export class HomePage {
     private http: HttpClient
   ) {
     this.columns = [
-      { name: 'No.' },
-      { name: 'Date' },
-      { name: 'Home' },
-      { name: 'Guest' },
-      { name: 'Result' },
-      { name: 'Score' }
+      { name: 'No.', prop: 'id'},
+      { name: 'Date', prop: 'datum' },
+      { name: 'Home', prop: 'name' },
+      { name: 'Guest', prop: 'name2' },
+      { name: 'Result', prop: 'ergebnis' }
     ];
 
-    this.http.get<Data>('../../assets/handball.json')
+    this.http.get<Data>('http://localhost:3000/games/a')
       .subscribe((res) => {
         console.log(res);
-        this.rows = res.handball;
+        this.rows = res.handball.map(element=>{
+          element.datum = (new Date(element.datum)).toLocaleDateString('de-DE');
+          return element;
+        });
       });
   }
 }

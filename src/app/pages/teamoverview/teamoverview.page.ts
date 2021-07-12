@@ -14,8 +14,8 @@ export class TeamoverviewPage  {
   barChart: any;
   constructor() { }
 
-  ionViewDidEnter(){
-    this.barChartMethod();
+ /* ionViewDidEnter(){
+   this.barChartMethod();
   }
 
   barChartMethod(){
@@ -48,6 +48,6 @@ export class TeamoverviewPage  {
       },
     // eslint-disable-next-line @typescript-eslint/semi
     });
-  }
+  }*/
 
 }

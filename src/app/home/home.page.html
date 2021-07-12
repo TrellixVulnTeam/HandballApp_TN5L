@@ -30,19 +30,19 @@
 
 <ion-content color="tertiary">
 
-  <ion-grid id="overview" class="ion-padding">
+  <ion-grid class="ion-padding" style="padding-bottom: 0;">
     <ion-row>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
+        <ion-img src="assets/quickInfo/games.png" style="height: 101px;"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
+        <ion-img src="assets/quickInfo/average2.png" style="height: 101px"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
+        <ion-img src="assets/quickInfo/score.png" style="height: 101px"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
+        <ion-img src="assets/quickInfo/teams.png" style="height: 101px"></ion-img>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -61,6 +61,7 @@
     <ngx-datatable
       class="material"
       [limit]="7"
+      style="height: 454px;"
       [rows]="rows"
       [rowHeight]="50"
       [columns]="columns"
