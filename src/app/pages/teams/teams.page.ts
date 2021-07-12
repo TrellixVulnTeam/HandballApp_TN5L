@@ -22,12 +22,12 @@ export class TeamsPage{
     private http: HttpClient
   ) {
     this.columns = [
-      { name: 'No' },
-      { name: 'From' },
-      { name: 'To' },
-      { name: 'Schiedsrichter 1' },
-      { name: 'Schiedsrichter 2' },
-      { name: 'Schiedsrichter 3'}
+      { name: 'No' , prop: 'nr'},
+      { name: 'From' , prop: 'from'},
+      { name: 'To' , prop: 'to'},
+      { name: 'Schiedsrichter 1' , prop: 's1'},
+      { name: 'Schiedsrichter 2' , prop: 's2'},
+      { name: 'Schiedsrichter 3', prop: 's3'}
     ];
 
     this.http.get<Data>('../../../assets/teams.json')
