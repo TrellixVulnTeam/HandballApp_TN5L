@@ -1,35 +1,37 @@
 <ion-app>
-  <ion-menu menuId="main-menu" content-id="main">
+
+
+  <ion-menu color="tertiary" menuId="main-menu" content-id="main">
 
     <ion-header>
-      <ion-toolbar>
+      <ion-toolbar color="primary">
        <ion-title>Menu</ion-title>
       </ion-toolbar>
 
     </ion-header>
 
-    <ion-content>
+    <ion-content color="primary">
       <ion-list>
-        <ion-item>
-          <h2>Core Modules</h2>
+        <ion-item color="primary">
+          <h1>Core Modules</h1>
         </ion-item>
-        <ion-item>
+        <ion-item color="primary" routerLink="home">
           <ion-icon name="star-outline" slot="start"></ion-icon>
           <ion-label>Overview</ion-label>
         </ion-item>
-        <ion-item>
+        <ion-item  color="primary" routerLink="user">
           <ion-icon name="person-circle-outline" slot="start"></ion-icon>
           <ion-label>User</ion-label>
         </ion-item>
-        <ion-item>
+        <ion-item color="primary">
           <ion-icon name="calendar-number-outline" slot="start"></ion-icon>
           <ion-label>Termine</ion-label>
         </ion-item>
-        <ion-item>
+        <ion-item color="primary">
           <ion-icon name="newspaper-outline" slot="start"></ion-icon>
           <ion-label>News</ion-label>
         </ion-item>
-        <ion-item>
+        <ion-item color="primary">
           <ion-icon name="settings-outline" slot="start"></ion-icon>
           <ion-label>Einstellungen</ion-label>
         </ion-item>

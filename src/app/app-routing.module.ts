@@ -12,8 +12,16 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'overview',
-    loadChildren: () => import('./overview/overview.module').then( m => m.OverviewPageModule)
+    path: 'user',
+    loadChildren: () => import('./pages/user/user.module').then( m => m.UserPageModule)
+  },
+  {
+    path: 'teams',
+    loadChildren: () => import('./pages/teams/teams.module').then( m => m.TeamsPageModule)
+  },
+  {
+    path: 'teamoverview',
+    loadChildren: () => import('./pages/teamoverview/teamoverview.module').then( m => m.TeamoverviewPageModule)
   },
 ];
 

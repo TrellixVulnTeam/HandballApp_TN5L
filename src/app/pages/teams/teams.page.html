@@ -1,0 +1,76 @@
+
+<ion-header>
+
+  <ion-toolbar color="primary">
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-img slot="start" src="assets/hvwlogo.png" style="height: 60px;"></ion-img>
+
+    <ion-buttons slot="end" >
+      <ion-button fill="solid" color="secondary">
+        <ion-icon slot="end" name="person-circle"></ion-icon>
+        Hallo User
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+
+      <ion-button fill="solid" color="secondary">
+        Help
+        <ion-icon slot="end" name="help-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content color="tertiary">
+
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col>
+        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+      </ion-col>
+      <ion-col>
+        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+      </ion-col>
+      <ion-col>
+        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+      </ion-col>
+      <ion-col>
+        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="ion-padding" style="padding-bottom: 0;">
+    <ion-button href="home" slot="start">
+      Games
+    </ion-button>
+    <ion-button href="teams" slot="start">
+      Teams
+    </ion-button>
+  </div>
+
+
+
+  <div class="ion-padding">
+
+    <!-- Theme classes dark, material, bootstrap -->
+    <ngx-datatable
+      class="material"
+      [limit]="7"
+      style="height: 454px;"
+      [rows]="rows"
+      [rowHeight]="50"
+      [columns]="columns"
+      [columnMode]="'force'"
+      [headerHeight]="50"
+      [footerHeight]="50">
+    </ngx-datatable>
+
+  </div>
+</ion-content>

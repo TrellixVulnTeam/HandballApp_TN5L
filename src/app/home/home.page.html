@@ -27,31 +27,40 @@
 </ion-header>
 
 
+
 <ion-content color="tertiary">
 
-  <ion-grid class="ion-padding">
+  <ion-grid id="overview" class="ion-padding">
     <ion-row>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img src="assets/testgraphik.png" style="height: 80px;"></ion-img>
+        <ion-img src="assets/testgraphik.png" style="height: 101px;"></ion-img>
       </ion-col>
     </ion-row>
   </ion-grid>
 
+<div class="ion-padding" style="padding-bottom: 0;">
+  <ion-button href="home" slot="start">
+    Games
+  </ion-button>
+  <ion-button href="teams" slot="start">
+    Teams
+  </ion-button>
+</div>
   <div class="ion-padding">
 
     <!-- Theme classes dark, material, bootstrap -->
     <ngx-datatable
       class="material"
-      [limit]="8"
+      [limit]="7"
       [rows]="rows"
       [rowHeight]="50"
       [columns]="columns"
