@@ -1,0 +1,86 @@
+<ion-header>
+
+  <ion-toolbar color="primary">
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-img slot="start" src="assets/hvwlogo.png" style="height: 60px;"></ion-img>
+
+    <ion-buttons slot="end" >
+      <ion-button fill="solid" color="secondary" href="user">
+        <ion-icon slot="end" name="person-circle"></ion-icon>
+        Hallo User
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+
+      <ion-button fill="solid" color="secondary">
+        Help
+        <ion-icon slot="end" name="help-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="tertiary">
+<div class="ion-padding" id="team-facts" >
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="teams" text="Teams"></ion-back-button>
+  </ion-buttons>
+</div>
+
+<div>
+
+<ion-grid fixed>
+  <ion-row id="dropdown" >
+    <ion-button fill="clear" >
+      <ion-icon name="filter-sharp"></ion-icon>
+    </ion-button>
+
+    <ion-item color="light">
+      <ion-select multiple="true" placeholder="Dropdown" style="margin-right: 50px;">
+        <ion-select-option value="peperoni">Peperoni</ion-select-option>
+        <ion-select-option value="hawaii">Hawaii</ion-select-option>
+      </ion-select>
+      <ion-select multiple="true" placeholder="Dropdown" style="margin-right: 50px;">
+        <ion-select-option value="peperoni">Peperoni</ion-select-option>
+        <ion-select-option value="hawaii">Hawaii</ion-select-option>
+      </ion-select>
+      <ion-select multiple="true" placeholder="Dropdown" style="margin-right: 50px;">
+        <ion-select-option value="peperoni">Peperoni</ion-select-option>
+        <ion-select-option value="hawaii">Hawaii</ion-select-option>
+      </ion-select>
+      <ion-select multiple="true" placeholder="Dropdown" style="margin-right: 50px;">
+        <ion-select-option value="peperoni">Peperoni</ion-select-option>
+        <ion-select-option value="hawaii">Hawaii</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-row>
+  <ion-row>
+    <ion-col size="4">
+      <canvas #barCanvas style="position: relative; height: 20vh; width: 40vw;"></canvas>
+    </ion-col>
+    <ion-col size="4">
+      <p>t</p>
+    </ion-col>
+    <ion-col size="4">
+      <p>t</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <p>t</p>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6">
+      <p>t</p>
+    </ion-col>
+    <ion-col size="6">
+      <p>t</p>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</div>
+</ion-content>

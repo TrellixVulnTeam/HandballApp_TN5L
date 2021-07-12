@@ -1,7 +1,7 @@
 {
   "handball": [
     {
-      "nr": "000001",
+      "nr": "09.10.1997",
       "date": "09.10.1997",
       "home": "SG SchoBott",
       "guest": "SKV Oberstenfeld",
@@ -21,6 +21,47 @@
   "date": "09.10.1997",
   "home": "SG SchoBott",
   "guest": "SKV Ober",
+  "result": "27 : 27",
+  "score": "80"
+},
+{
+  "nr": "000001",
+  "date": "09.10.1997",
+  "home": "SG SchoBott",
+  "guest": "SKV Oberstenfeld",
+  "result": "27 : 27",
+  "score": "80"
+},
+
+{
+  "nr": "000001",
+  "date": "09.10.1997",
+  "home": "SG SchoBott",
+  "guest": "SKV Oberstenfeld",
+  "result": "27 : 27",
+  "score": "80"
+},
+{
+  "nr": "000001",
+  "date": "09.10.1997",
+  "home": "SG SchoBott",
+  "guest": "SKV Oberstenfeld",
+  "result": "27 : 27",
+  "score": "80"
+},
+{
+  "nr": "000001",
+  "date": "09.10.1997",
+  "home": "SG SchoBott",
+  "guest": "SKV Oberstenfeld",
+  "result": "27 : 27",
+  "score": "80"
+},
+{
+  "nr": "000001",
+  "date": "09.10.1997",
+  "home": "SG SchoBott",
+  "guest": "SKV Oberstenfeld",
   "result": "27 : 27",
   "score": "80"
 },
