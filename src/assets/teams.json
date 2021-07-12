@@ -2,19 +2,19 @@
   "teams": [
     {
       "nr": "000001",
-      "date": "09.10.1997",
-      "home": "SG SchoBott",
-      "guest": "SKV Oberstenfeld",
-      "result": "27 : 27",
-      "score": "80"
+      "from": "20.10.2020",
+      "to": "20.12.2020",
+      "s1": "Tom Dott",
+      "s2": "Maik Ruoff",
+      "s3": "Roland Gabel"
   },
   {
-    "nr": "000001",
-    "date": "09.10.1997",
-    "home": "SG SchoBott",
-    "guest": "SKV Oberstenfeld",
-    "result": "27 : 27",
-    "score": "80"
+      "nr": "000002",
+      "from": "20.10.2020",
+      "to": "20.12.2020",
+      "s1": "Max Mustermann",
+      "s2": "Lisa Müller",
+      "s3": "Dilara Yildiz"
 }
 
   ]

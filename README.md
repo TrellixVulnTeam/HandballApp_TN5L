@@ -3,12 +3,20 @@
   
 </p>
 
-# Integrationseminar
+## Integrationseminar
 
 Handball-App zur Auswertung der Schiedsrichterdaten
 
-# Lokal hosten
+# Node.js installieren
 
-cd /Users/Karmaaa/Desktop/DHBW/Integrationsseminar/Handballapp/HandballApp
+https://nodejs.org/en/download/
 
-ionic serve
+# Download Git Repo
+
+https://github.com/Tom1893/HandballApp.git
+
+# lokal hosten
+
+im Terminal -> npm install
+
+Angular App lokal hosten -> ng serve
